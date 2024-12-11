@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(69, 110, 186);
+}
+#main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main form {
+  height: 400px;
+  width: 25%;
+  background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+form button {
+  height: 40px;
+  width: 110px;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form #show {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  margin: 20px;
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form #insert {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  margin: 20px;
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form #del {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  margin: 20px;
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form button:hover {
+  background-color: aqua;
+  color: rgb(255, 255, 255);
+}
+form #insert:hover {
+  background-color: aqua;
+  color: rgb(255, 255, 255);
+}
+form #del:hover {
+  background-color: aqua;
+  color: rgb(255, 255, 255);
+}
+form #show:hover {
+  background-color: aqua;
+  color: rgb(255, 255, 255);
+}
+
+/* ------------------------------------------ */
+#main_show {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(115, 177, 248);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#main_show h1 {
+  color: rgb(18, 1, 255);
+}
+#main_show form {
+  height: 400px;
+  width: 500px;
+  background-color: rgb(14, 40, 88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+#main_show form #pg label {
+  color: red;
+}
+#main_show form #pg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 0px 0px 0px;
+  padding: 10px;
+  color: rgb(255, 255, 0);
+  font-weight: 700;
+  font-size: 10px;
+}
+
+#txt {
+  padding: 12px 15px;
+  margin: 0;
+  outline: none;
+  transition: width 0.4s ease-in-out;
+}
+
+#txt:focus {
+  width: 40%;
+}
+
+.not_found {
+  display: flex;
+  color: chartreuse;
+}
+/* -------------------------------------------------- */
+
+#main_show_input {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(61, 88, 178);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+#main_show_input h1 {
+  margin-left: 80px;
+  margin-bottom: 10px;
+  color: rgb(143, 245, 70);
+}
+#main_show_input #input {
+  height: 450px;
+  width: 400px;
+  background-color: #1f3481;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 30px;
+}
+
+.box {
+  margin: 15px 0px 10px 50px;
+}
+#main_show_input #input label {
+  margin-bottom: 10px;
+  color: rgb(0, 255, 162);
+}
+#main_show_input input {
+  width: 80%;
+  padding: 10px;
+  margin: 0;
+  outline: none;
+}
+#main_show_input #input button {
+  margin-left: 130px;
+}
+#main_show_input #input a {
+  width: 26%;
+  background-color: white;
+  margin-left: 135px;
+  margin-bottom: 10px;
+  padding: 8px 0px 8px 0px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* ------------------------------- */
